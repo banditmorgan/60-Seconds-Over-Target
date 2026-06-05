@@ -1,47 +1,61 @@
 ---
 layout: post
 title: "The Safety Pilot Who Never Had to Intervene"
-date: 2026-06-05 01:16:45 +0000
+date: 2026-06-05 01:57:43 +0000
 ---
 
-![X-62A VISTA flies over Edwards AFB]({{ "/assets/images/the-safety-pilot-who-never-had-to-intervene/1-x-62a-vista-flies-over-edwards-afb.jpg" | relative_url }})
+![X-62A VISTA flies over Edwards AFB]({{ "/assets/images/the-safety-pilot-who-never-had-to-intervene/1-1000w_q95.jpg" | relative_url }})
 
-![X-62A VISTA flies over Edwards AFB]({{ "/assets/images/the-safety-pilot-who-never-had-to-intervene/2-x-62a-vista-flies-over-edwards-afb.jpg" | relative_url }})
+![X-62A VISTA flies over Edwards AFB]({{ "/assets/images/the-safety-pilot-who-never-had-to-intervene/2-1000w_q95.jpg" | relative_url }})
 
-![X-62A VISTA flies over Edwards AFB]({{ "/assets/images/the-safety-pilot-who-never-had-to-intervene/3-x-62a-vista-flies-over-edwards-afb.jpg" | relative_url }})
+![X-62A VISTA flies over Edwards AFB]({{ "/assets/images/the-safety-pilot-who-never-had-to-intervene/3-1000w_q95.jpg" | relative_url }})
 
-December 2022. Edwards Air Force Base. A test pilot climbs into the back seat of the X-62A VISTA, hand ready over the override switch. His job is straightforward: expect the AI to fail, and be ready to take control when it does.
+Between December 1 and 16, 2022, artificial intelligence agents successfully piloted the X-62A VISTA for the first time during 12 flights over Edwards Air Force Base, California. A safety pilot was on board the VISTA aircraft to take control if anything went awry. While safety pilots were onboard with the ability to disengage the AI, they never had to activate the safety switch during the dogfights.
 
-It never does.
+That fact—the switch that stayed silent—is the real story. Not because the AI performed flawlessly, but because a human being, trained to expect failure, learned to trust a machine making life-or-death decisions faster than thought.
 
-Between December 1 and 16, 2022, artificial intelligence agents successfully piloted the X-62A for the first time during 12 flights. The test campaign involved two AI agents—the Air Force Research Laboratory's Autonomous Air Combat Operations (AACO) and DARPA's Air Combat Evolution (ACE)—each performing in different roles. While AACO's AI agents performed one-on-one beyond-visual-range engagements against a simulated adversary, ACE's AI agents performed within-visual-range maneuvering, known as dogfighting, against constructive AI red-team agents.
+## The Platform
 
-The safety pilots watched the AI bank hard, execute tactical maneuvers, and hold parameters that would make most instructors nervous. The test pilots did not have to activate the safety switch at any point during the engagements over Edwards AFB, the Air Force said.
+The X-62A is a one-of-a-kind experimental aircraft outfitted with software that allows it to mimic the performance characteristics of other aircraft. Built by Lockheed Martin Skunk Works in collaboration with Calspan, it's a modified F-16D Block 30 Peace Marble II aircraft upgraded with Block 40 avionics. The aircraft first flew in 1992 and has been a staple of the Air Force Test Pilot School curriculum, but it was redesignated from NF-16D to X-62A effective June 14, 2021—a recognition that it had become something more than a trainer.
 
-The program didn't stop there. In September 2023, the team accomplished another world first: the X-62A flew against a live manned F-16, building up safety using defensive maneuvers first, then offensive, and finally high-aspect nose-to-nose engagements where the aircraft closed to 2,000 feet at 1,200 miles per hour. In total, the team made over 100,000 lines of flight-critical software changes across 21 test flights.
+The redesignation placed VISTA in the lineage of the Bell X-1 and the North American X-15. The X prefix is reserved for aircraft testing configurations of a radical nature. In this case, the radical part wasn't the airframe. It was what was flying it.
 
-## What Made This Hard
+## The Test Campaign
 
-The X-62A received a new system called the System for Autonomous Control of Simulation (SACS) to support autonomy testing for the Air Force Research Laboratory's Skyborg program. The aircraft was redesignated from NF-16D to X-62A effective June 14, 2021. The redesignation reflected both its experimental history and its new mission: becoming a testbed for AI that could make life-or-death decisions faster than any human.
+The December 2022 test campaign involved two AI agents: the Air Force Research Laboratory's Autonomous Air Combat Operations (AACO) and DARPA's Air Combat Evolution (ACE), each performing in different roles. While the AACO's AI agents performed one-on-one beyond-visual-range engagements against a simulated adversary, the ACE's AI agents performed within-visual-range maneuvering—dogfighting—against constructive AI red-team agents.
 
-The challenge wasn't just technical. The AI versus human within-visual-range engagement is a highly complex scenario that the X-62A utilized to successfully prove using non-deterministic artificial intelligence safely is possible within aerospace. Non-deterministic means the AI doesn't follow a script—it adapts, learns, and reacts in real time. That's what made the safety pilot's role so difficult: he couldn't predict what the machine would do next, only trust that it had been trained well enough not to kill him.
+Initial flight safety was built up first using defensive maneuvers before switching to offensive high-aspect nose-to-nose engagements where the dogfighting aircraft got as close as 2,000 feet at 1,200 miles per hour. Those are parameters where human reaction time becomes a limiting factor. At that closure rate, you're covering a football field every fifth of a second. The margin for error is measured in fractions of a heartbeat.
 
-"It's very easy to look at the X-62A ACE program and see it as under autonomous control, it can dogfight, but that misses the point," said Bill Gray, the Test Pilot School's chief test pilot. "Dogfighting was the problem to solve so we could start testing autonomous artificial intelligence systems in the air. Every lesson we're learning applies to every task you could give to an autonomous system."
+In total, the team made over 100,000 lines of flight-critical software changes across 21 test flights. That figure spans the broader ACE program test series, but it underscores the iterative, high-stakes nature of the work: each flight fed data back into the algorithms, refining the AI's ability to handle edge cases, airspace boundaries, and the chaotic geometry of close-in combat.
 
-## Why It Matters
+## The Trust Problem
 
-This wasn't about building a robot dogfighter. It was about proving that humans could trust machines to operate in the most demanding, unforgiving environment in aviation: close-in air combat, where decisions happen in fractions of a second and mistakes are fatal.
+DARPA's Air Combat Evolution program seeks to increase trust in combat autonomy by using human-machine collaborative dogfighting as its challenge problem—an entry point into complex human-machine collaboration. The technical challenge was significant: teaching an AI to dogfight safely. But the harder problem, the one that determines whether any of this matters operationally, is trust.
 
-The X-62A program fed directly into the Air Force's Collaborative Combat Aircraft effort—autonomous drones designed to fly as wingmen to crewed fighters. The lessons from December 2022 and September 2023 weren't just about what the AI could do. They were about what the humans in the cockpit could learn to *let* it do.
+In order for human-AI teaming to work, the pilot must be able to trust the autonomy to conduct complex combat behaviors in scenarios such as the within-visual-range dogfight before progressing to beyond-visual-range engagements. Trust isn't a switch you flip. It's built through exposure, through watching the system handle situations where failure would be catastrophic, and through the gradual recalibration of your own threat assessment.
 
-The hardest part of teaching AI to fight wasn't writing the code. It was teaching the pilot in the back seat not to touch the switch.
+The safety pilot's hand hovering over the override switch is a physical manifestation of that trust threshold. Early in the test series, that hand stays close. The pilot expects to intervene. As the flights progress and the AI demonstrates compliance with safety boundaries—no airspace violations, no envelope excursions, no loss of control—the threshold shifts. The hand relaxes. The intervention that seemed inevitable never comes.
+
+## What It Means
+
+A total of 21 test flights were conducted for the project between December 2022 and September 2023. The December 2022 flights were the beginning; less than a year later, the ACE program achieved another milestone by showcasing the AI-controlled X-62A's ability to successfully engage in real-world dynamic, offensive, defensive, and high-aspect air combat scenarios against crewed F-16s, with initial testing beginning in late 2023 and continuing into 2024.
+
+Secretary of the Air Force Frank Kendall has said the successes of the ACE program contributed to his decision to move ahead with the Air Force's Collaborative Combat Aircraft (CCA) program, an effort to develop and field next-generation autonomous drones for counter-air operations and other missions. The vision: a single pilot orchestrating multiple autonomous platforms, offloading the high-workload, high-speed tactical fight to AI while focusing on broader mission command.
+
+That vision depends entirely on the lesson learned in the back seat of the X-62A in December 2022. The hardest part of teaching AI to fight wasn't writing the algorithms. It was teaching the human not to stop them.
 
 ## Sources
 
-- https://theaviationist.com/2024/04/18/ai-flew-x-62-vista-during-dogfight/ — AI agents first piloted X-62A, December 2022 flights, AACO and ACE roles
-- https://www.dvidshub.net/news/402134/nf-16d-vista-becomes-x-62a-paves-way-skyborg-autonomous-flight-tests — X-62A redesignation, SACS upgrade, Skyborg program
-- https://thedebrief.org/darpas-groundbreaking-ace-program-and-x-62a-becomes-first-ai-controlled-jet-to-dogfight-against-manned-f-16-in-real-world/ — September 2023 live F-16 engagement details
-- https://www.dvidshub.net/news/468721/usaf-test-pilot-school-and-darpa-announce-breakthrough-aerospace-machine-learning — Bill Gray quote, safety pilot override not activated
+- https://theaviationist.com/2024/04/18/ai-flew-x-62-vista-during-dogfight/ — The Aviationist: AI Flew X-62 VISTA During Simulated Dogfight
+- https://thedebrief.org/darpas-groundbreaking-ace-program-and-x-62a-becomes-first-ai-controlled-jet-to-dogfight-against-manned-f-16-in-real-world/ — The Debrief: DARPA's ACE Program and X-62A First AI Dogfight
+- https://www.darpa.mil/news-events/2023-02-13 — DARPA: ACE Program's AI Agents Transition from Simulation to Live Flight
+- https://www.aerotime.aero/articles/usaf-darpa-x-62a-ai-dogfight — AeroTime: USAF and DARPA Conduct First AI vs Human Dogfights
+- https://theaviationist.com/2023/02/14/artificial-intelligence-successfully-piloted-the-x-62-vista/ — The Aviationist: AI Successfully Piloted the X-62 VISTA
+- https://defensescoop.com/2024/04/17/darpa-ace-ai-dogfighting-flight-tests-f16/ — DefenseScoop: Pentagon Takes AI Dogfighting to Next Level
+- https://www.darpa.mil/research/programs/air-combat-evolution — DARPA: Air Combat Evolution Program Overview
+- https://www.edwards.af.mil/News/Article/2714183/nf-16d-vista-becomes-x-62a/ — Edwards AFB: NF-16D VISTA Becomes X-62A
+- https://www.aerotechnews.com/blog/2021/08/02/newest-x-plane-is-edwards-nf-16d-vista-now-called-x-62a/ — Aerotech News: Newest X-Plane is Edwards' X-62A
+- https://www.airforce-technology.com/projects/vista-x-62a-training-aircraft-usa/ — Air Force Technology: VISTA X-62A Training Aircraft
 
 **Image credits (DVIDS, public domain):**
 - X-62A VISTA flies over Edwards AFB — credit: Richard Gonzales — https://www.dvidshub.net/image/8417511/x-62a-vista-flies-over-edwards-afb
